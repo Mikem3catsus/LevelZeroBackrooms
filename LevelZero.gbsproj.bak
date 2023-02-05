@@ -2790,7 +2790,7 @@
         {
             "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
             "name": "Logo",
-            "backgroundId": "79bb4077-aed6-4d40-a490-8987542818c0",
+            "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
             "x": 111,
             "y": 264,
             "width": 20,
@@ -6287,8 +6287,7 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "backroom_room_1.png",
-            "tileColors": []
+            "filename": "backroom_room_1.png"
         },
         {
             "id": "7028bbdc-4d75-4128-86e5-fc0c7a023b40",
@@ -6298,18 +6297,7 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "backroom_room_2.png",
-            "tileColors": []
-        },
-        {
-            "id": "79bb4077-aed6-4d40-a490-8987542818c0",
-            "name": "backroom_studio_title",
-            "symbol": "bg_backroom_studio_title",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "backroom_studio_title.png"
+            "filename": "backroom_room_2.png"
         },
         {
             "id": "7af031ed-4eaf-49c3-b4d6-d8759cff2624",
@@ -6319,8 +6307,7 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "backroom_title.png",
-            "tileColors": []
+            "filename": "backroom_title.png"
         },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -9610,8 +9597,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 177,
-        "worldScrollY": 518,
+        "worldScrollX": 1975.3333740234375,
+        "worldScrollY": 1402,
         "zoom": 250,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -9640,9 +9627,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            576,
-            190,
-            190
+            371,
+            123,
+            123
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
