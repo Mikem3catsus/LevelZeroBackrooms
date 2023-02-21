@@ -6309,7 +6309,7 @@
             "id": "9798cfa4-7b4d-4109-8d90-eb0aac98c148",
             "symbol": "scene_5",
             "x": 1320.1666870117188,
-            "y": 586,
+            "y": 586.5,
             "actors": [
                 {
                     "name": "",
@@ -6804,7 +6804,7 @@
                                         "args": {
                                             "variable": "4",
                                             "operator": "==",
-                                            "comparator": 8,
+                                            "comparator": 9,
                                             "__collapseElse": true
                                         },
                                         "children": {
@@ -6873,7 +6873,7 @@
                                         "args": {
                                             "variable": "4",
                                             "operator": "==",
-                                            "comparator": 9,
+                                            "comparator": 8,
                                             "__collapseElse": true
                                         },
                                         "children": {
@@ -11958,7 +11958,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2115.333251953125,
+        "worldScrollX": 2239.333251953125,
         "worldScrollY": 1111.3333740234375,
         "zoom": 200,
         "customColorsEnabled": false,
