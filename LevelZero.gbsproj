@@ -1643,7 +1643,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "000a6dde-cb60-436e-b357-30a529daa139",
+                    "spriteSheetId": "78cd4159-c300-49f8-96b5-ca70970b7895",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -8185,6 +8185,134 @@
             "animSpeed": 15
         },
         {
+            "id": "78cd4159-c300-49f8-96b5-ca70970b7895",
+            "name": "Konami_controller",
+            "symbol": "sprite_konami_controller",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Konami_controller.png",
+            "checksum": "86c6a2cbf1beaa0a1c796663ab0d816f2fd4d6a0",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "5efd663c-9e5e-4bc9-b49f-4dc3980577ae",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "d292db28-1c7f-4cba-96d2-f210fe4a773c",
+                            "frames": [
+                                {
+                                    "id": "551b16c8-3c6e-4fd3-be03-90f0757986e2",
+                                    "tiles": [
+                                        {
+                                            "id": "166a60a7-8585-41c3-bcc8-21d4cf465e27",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8a877feb-eff3-4a9f-a78b-c9c2b05bb782",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5e8c7d94-9e0b-4d6c-a6fe-aa6dbb3a03c4",
+                            "frames": [
+                                {
+                                    "id": "dddc2f77-9ebf-4b57-99a8-5efc3106755c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3dea2f2a-e13c-43d4-a3fb-acb61b8e9949",
+                            "frames": [
+                                {
+                                    "id": "f703eb17-a717-47db-afaf-41f933fecb32",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9ee170f0-3d7e-424a-9c85-07bfbb9ce35f",
+                            "frames": [
+                                {
+                                    "id": "22252464-f4d3-4fe2-9cb4-035f55c33b5e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3f637062-a65d-4d0c-a237-863f68da5b2f",
+                            "frames": [
+                                {
+                                    "id": "34ef32c8-9a4e-4f6a-b25c-2469c676f21d",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "20980342-b96d-48e1-803a-41e090e027ab",
+                            "frames": [
+                                {
+                                    "id": "70bbbd30-ba6a-41a2-a206-ddb5bcf6ea23",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2b7d4fef-2426-4b0b-ae31-4b3d252add0d",
+                            "frames": [
+                                {
+                                    "id": "78515e4c-6fad-468a-80fe-bdd1b57c44ac",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "64aa4c6b-8368-4bb1-a148-726071f2eef5",
+                            "frames": [
+                                {
+                                    "id": "dce8162b-40c8-438f-a8b4-9e487bc8a12d",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
             "name": "cat",
             "symbol": "sprite_cat",
@@ -11958,7 +12086,7 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2239.333251953125,
+        "worldScrollX": 7.333333492279053,
         "worldScrollY": 1111.3333740234375,
         "zoom": 200,
         "customColorsEnabled": false,
