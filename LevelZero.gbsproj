@@ -4612,7 +4612,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You arrive at your\n9-5 job at Async.\nI wonder what they\nhave in store for\nme today."
+                            "You arrive at Async\nWhat is in store \nfor me today?"
                         ],
                         "avatarId": ""
                     },
@@ -5052,7 +5052,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Lockers???\nHave they revamped\nthe place?\nAnd why do they\nhave hazmat suits?"
+                            "Lockers are new.\nWhy did they add \nhazmat suits?"
                         ],
                         "avatarId": ""
                     },
@@ -15864,7 +15864,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "backroom_maze_portal_room.png"
+            "filename": "backroom_maze_portal_room.png",
+            "tileColors": []
         },
         {
             "id": "a8d9ed33-2314-4412-aca9-3c239ff394eb",
@@ -20556,6 +20557,11 @@
             "symbol": "var_unlocked_door_1"
         },
         {
+            "id": "2",
+            "name": "Has_maze_key",
+            "symbol": "var_has_maze_key"
+        },
+        {
             "id": "3",
             "name": "Spoke To Space Dog"
         },
@@ -20594,11 +20600,6 @@
         {
             "id": "12",
             "name": "PushedIceBlock"
-        },
-        {
-            "id": "2",
-            "name": "Has_maze_key",
-            "symbol": "var_has_maze_key"
         }
     ],
     "engineFieldValues": [
@@ -20616,8 +20617,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2099.333251953125,
-        "worldScrollY": 400.6666564941406,
+        "worldScrollX": 0,
+        "worldScrollY": 1645,
         "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -20646,9 +20647,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            205,
-            118,
-            274
+            328,
+            189,
+            439
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
