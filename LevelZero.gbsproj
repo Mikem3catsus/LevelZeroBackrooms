@@ -2665,7 +2665,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "The code: up up \ndown down left\nright left right\na b start"
+                                    "The code: up up \ndown down left\nright left right\nb a start"
                                 ],
                                 "avatarId": ""
                             },
@@ -21890,9 +21890,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1376,
-        "worldScrollY": 225,
-        "zoom": 200,
+        "worldScrollX": 58,
+        "worldScrollY": 0,
+        "zoom": 50,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -21920,9 +21920,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            328,
-            189,
-            439
+            212,
+            122,
+            283
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
