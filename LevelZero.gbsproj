@@ -15994,7 +15994,7 @@
         },
         {
             "name": "BlockMoveRoom",
-            "backgroundId": "5fa6dac2-92de-414e-85ab-6636ca408212",
+            "backgroundId": "94cb3b04-8702-464c-890b-676febb1a93c",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -16461,7 +16461,7 @@
                     "name": "Spikes2",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+                    "spriteSheetId": "944a1f49-8a1e-480f-be2b-467b72e33dba",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -16478,13 +16478,13 @@
                     "hit3Script": [],
                     "id": "441faf0c-b548-4bea-9866-ccc422491387",
                     "x": 8,
-                    "y": 3
+                    "y": 4
                 },
                 {
                     "name": "Spikes3",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+                    "spriteSheetId": "944a1f49-8a1e-480f-be2b-467b72e33dba",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -16501,13 +16501,13 @@
                     "hit3Script": [],
                     "id": "fd44a2cd-57e5-4f21-9652-ce6fefa513d2",
                     "x": 10,
-                    "y": 3
+                    "y": 2
                 },
                 {
                     "name": "Spikes4",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+                    "spriteSheetId": "944a1f49-8a1e-480f-be2b-467b72e33dba",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -16523,14 +16523,14 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "9d53c228-0746-44fe-b120-261e41c901c0",
-                    "x": 12,
-                    "y": 3
+                    "x": 10,
+                    "y": 4
                 },
                 {
                     "name": "Spikes1",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+                    "spriteSheetId": "944a1f49-8a1e-480f-be2b-467b72e33dba",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -16546,8 +16546,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "0e6c0c79-a7a1-460b-afa3-24306d5376d0",
-                    "x": 6,
-                    "y": 3
+                    "x": 8,
+                    "y": 2
                 },
                 {
                     "name": "Block2",
@@ -16751,6 +16751,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "94cb3b04-8702-464c-890b-676febb1a93c",
+            "name": "backroom_boxes_puzzle_room_1",
+            "symbol": "bg_backroom_boxes_puzzle_ro",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "backroom_boxes_puzzle_room_1.png"
+        },
         {
             "id": "87548c98-317c-43dd-8804-af87cf7bec0d",
             "name": "backroom_hallway",
@@ -21127,6 +21137,134 @@
             "animSpeed": 15
         },
         {
+            "id": "944a1f49-8a1e-480f-be2b-467b72e33dba",
+            "name": "spikey_gate",
+            "symbol": "sprite_spikey_gate",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "spikey_gate.png",
+            "checksum": "7b90e2adfef8d80ced1e7f87dadc8ffaa88af65c",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "720a8d96-0561-4d85-a317-1d26b61e431f",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "c3a53cf2-87e4-4071-bc4b-df417840d73b",
+                            "frames": [
+                                {
+                                    "id": "e853313f-cd96-4be4-ae27-3a81b617e52f",
+                                    "tiles": [
+                                        {
+                                            "id": "4460ec85-4796-4571-973e-f2d2a743b878",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9b4202a1-952d-4dd3-a955-d3036d60e85d",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "50c482af-0cd1-42c8-a34e-a0b94218ee10",
+                            "frames": [
+                                {
+                                    "id": "5889cf7a-4b7e-49f9-bc69-6c0f70f03eef",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "444dbb3e-df42-4ce5-a45c-719fb8cdc970",
+                            "frames": [
+                                {
+                                    "id": "82df339c-4396-46ab-aa36-b6a3a753719f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "34d7596f-01ae-471e-9534-d71668626fd0",
+                            "frames": [
+                                {
+                                    "id": "f2d96de7-7e12-4066-84b7-03a4f3d0c9ea",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "58e25cde-f923-4d16-9ea7-832a1add3d65",
+                            "frames": [
+                                {
+                                    "id": "d8d2eba6-208b-4cca-b19d-954640488121",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "09670796-2608-4986-8932-101ac59e4d77",
+                            "frames": [
+                                {
+                                    "id": "f5df9efc-6bf5-415e-8752-0c6e6d58a421",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "71215f5f-07cf-43cc-a179-705b9f6007de",
+                            "frames": [
+                                {
+                                    "id": "56f109ea-a24b-4225-a146-85c737d9b265",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "08898a08-9553-4413-870a-ee69c2fc68f6",
+                            "frames": [
+                                {
+                                    "id": "b47da953-e39b-4fff-b2d4-9e76915bb381",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 1,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
             "name": "torch",
             "symbol": "sprite_torch",
@@ -21890,9 +22028,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 58,
-        "worldScrollY": 0,
-        "zoom": 50,
+        "worldScrollX": 2635.333251953125,
+        "worldScrollY": 280,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -21920,9 +22058,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            212,
-            122,
-            283
+            205,
+            118,
+            274
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",
