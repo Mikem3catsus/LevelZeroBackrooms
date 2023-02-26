@@ -1,8 +1,8 @@
-# Level Zero
+# Level Zero Backrooms Game (LZB)
 
 A [Backrooms](https://en.wikipedia.org/wiki/The_Backrooms) inspired Gameboy game written using [GB Studio](https://www.gbstudio.dev/) and [Pyxel Edit](https://pyxeledit.com/).
 
-There is a playable copy at [http://3cats.us/gb/ls](http://3cats.us/gb/ls).
+There is a playable copy at [http://3cats.us/gb/lzb](http://3cats.us/gb/lzb).
  * 'z' is the 'A button'
  * Arrow keys move around
 
