@@ -2,7 +2,7 @@
 
 A [Backrooms](https://en.wikipedia.org/wiki/The_Backrooms) inspired Gameboy game written using [GB Studio](https://www.gbstudio.dev/) and [Pyxel Edit](https://pyxeledit.com/).
 
-There is a playable copy at [http://3cats.us/gb/lzb](http://3cats.us/gb/lzb).
+There is a playable copy at [http://3cats.us/gb/lzb](http://3cats.us/gb/lzb) and on [itch.io](https://3catsstudios.itch.io/lzb).
  * 'z' is the 'A button'
  * Arrow keys move around
 
@@ -19,6 +19,6 @@ Using GB Studio, open the "LevelZero.gbstudio" file and you can then run it usin
 
 The goal of this project is to learn how to make basic games and have fun doing it.
 
-
+![screenshot](lzb_screenshot.png)
 
 License is [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
