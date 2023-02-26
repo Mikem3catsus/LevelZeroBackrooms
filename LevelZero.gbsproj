@@ -4610,8 +4610,8 @@
                 {
                     "name": "",
                     "id": "288a8b23-35cc-4186-b5d8-b04a32d3010d",
-                    "x": 18,
-                    "y": 6,
+                    "x": 19,
+                    "y": 9,
                     "symbol": "trigger_69",
                     "width": 1,
                     "height": 3,
@@ -14620,8 +14620,8 @@
             "autoFadeSpeed": 1,
             "id": "28eb898e-1dc3-46de-b60d-2a74bc620038",
             "symbol": "scene_17",
-            "x": 1053,
-            "y": 313,
+            "x": 1053.25,
+            "y": 313.25,
             "actors": [
                 {
                     "name": "Portal to maze start",
@@ -14880,7 +14880,7 @@
                     "name": "Maze exit door",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "ab3d3b0b-d73e-429c-9444-1401747c1d34",
+                    "spriteSheetId": "4c8dd57e-5fc1-455a-80b7-4a895f8a4707",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -17240,9 +17240,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "957cfee9-b9c9-42a8-a1d9-1c94795d9e15",
-                                "x": 14,
-                                "y": 6,
+                                "sceneId": "8457513f-8db8-4b08-ab3c-cfd9ad028457",
+                                "x": 1,
+                                "y": 9,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -17286,9 +17286,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "957cfee9-b9c9-42a8-a1d9-1c94795d9e15",
-                                "x": 15,
-                                "y": 11,
+                                "sceneId": "9faa9872-b335-425c-ab49-b6b4cae50451",
+                                "x": 9,
+                                "y": 6,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -17693,7 +17693,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "957cfee9-b9c9-42a8-a1d9-1c94795d9e15",
-                                "x": 16,
+                                "x": 17,
                                 "y": 9,
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -20057,6 +20057,134 @@
                             "frames": [
                                 {
                                     "id": "6961efef-4814-4055-b789-76de17b560b3",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "4c8dd57e-5fc1-455a-80b7-4a895f8a4707",
+            "name": "Door_Lock_right",
+            "symbol": "sprite_door_lock_right",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Door_Lock_right.png",
+            "checksum": "13b9ec7be7b49faf431d94772f645d1971082d23",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "eca0fa2b-675b-4601-abc1-00289cdbeb70",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "1075d9ff-3e91-44b1-8127-6fd71cf6f65d",
+                            "frames": [
+                                {
+                                    "id": "8e465676-59fb-4d55-b7c0-1fbf76fb4ce2",
+                                    "tiles": [
+                                        {
+                                            "id": "eb7b40c3-28f2-4a83-ba8f-1c8f79e624a9",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "21e1585d-627a-4d55-8efe-d31863d74f67",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "99021938-e8be-45d5-b421-d68746d88a1d",
+                            "frames": [
+                                {
+                                    "id": "77d83e63-ae70-4710-a06e-c22c92c0de31",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d08cef07-8dd2-4801-96a2-d32e1f178924",
+                            "frames": [
+                                {
+                                    "id": "f373bf70-fb6f-4f55-82f2-852173f1869f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b7727aff-9760-4a94-b70c-dc7890c390c5",
+                            "frames": [
+                                {
+                                    "id": "fc1de6ee-7eb4-4f31-b82d-8d346c1fc531",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "8aa7a827-7e32-45e7-85f1-10cd6ba7cb16",
+                            "frames": [
+                                {
+                                    "id": "f454dd51-56ad-4d70-bc2d-e5083db6b014",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3c4b33c6-dc0f-4857-94d7-ebc5c6571adf",
+                            "frames": [
+                                {
+                                    "id": "34cf499f-7d00-40d3-beca-12f409d48283",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "317922ce-cf17-4b6e-a7f9-6ba369b5c397",
+                            "frames": [
+                                {
+                                    "id": "d5838fef-627d-433b-8037-d8a5e3673826",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "67b91288-defd-4870-8964-8542f16e99b5",
+                            "frames": [
+                                {
+                                    "id": "4c068c67-43b1-46cb-9e55-e7afdd5b3d2b",
                                     "tiles": []
                                 }
                             ]
@@ -25294,9 +25422,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 38,
-        "zoom": 100,
+        "worldScrollX": 1284,
+        "worldScrollY": 91.33333587646484,
+        "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

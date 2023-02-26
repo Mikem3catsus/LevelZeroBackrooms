@@ -2,6 +2,10 @@
 
 A [Backrooms](https://en.wikipedia.org/wiki/The_Backrooms) inspired Gameboy game written using [GB Studio](https://www.gbstudio.dev/) and [Pyxel Edit](https://pyxeledit.com/).
 
+There is a playable copy at [http://3cats.us/gb/ls](http://3cats.us/gb/ls).
+ * 'z' is the 'A button'
+ * Arrow keys move around
+
 Drawing inspiration from multiple sources:
  * [Fandom Wiki](https://backrooms.fandom.com/wiki/Backrooms_Wiki)
  * [Wikidot](http://backrooms-wiki.wikidot.com/)
@@ -14,5 +18,7 @@ The first 5 colors match the [image requirements](https://www.gbstudio.dev/docs/
 Using GB Studio, open the "LevelZero.gbstudio" file and you can then run it using the "play" icon in the upper right, or build and export it using the "Game->Export as" menu.
 
 The goal of this project is to learn how to make basic games and have fun doing it.
+
+
 
 License is [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/)
