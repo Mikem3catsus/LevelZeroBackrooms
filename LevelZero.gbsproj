@@ -5088,7 +5088,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 13",
+            "name": "Portal Room",
             "backgroundId": "bc830521-e420-40a5-8449-23280295bc9d",
             "width": 20,
             "height": 18,
@@ -6408,7 +6408,7 @@
                     "leaveScript": []
                 },
                 {
-                    "name": "",
+                    "name": "Left Trigger",
                     "id": "79e688db-df86-4aaf-a3f2-505dfe88a4d4",
                     "x": 3,
                     "y": 8,
@@ -6507,7 +6507,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "Up Trigger",
                     "id": "25332714-3f79-4ea8-a112-88de55ba323f",
                     "x": 5,
                     "y": 6,
@@ -6606,7 +6606,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "Down Trigger",
                     "id": "da529b10-d24c-4a8d-bc16-36de57ccd7b8",
                     "x": 5,
                     "y": 10,
@@ -6705,7 +6705,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "Right Trigger",
                     "id": "0bac52e2-9423-4fe8-867c-9c1b707190ae",
                     "x": 7,
                     "y": 8,
@@ -6804,7 +6804,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "A Trigger",
                     "id": "d7622187-d528-4cc7-867e-550c12172c91",
                     "x": 11,
                     "y": 8,
@@ -6873,7 +6873,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "B Trigger",
                     "id": "10b7b27c-b901-4a56-8bd2-215479685cd6",
                     "x": 15,
                     "y": 8,
@@ -6942,7 +6942,7 @@
                     ]
                 },
                 {
-                    "name": "",
+                    "name": "Start Trigger",
                     "id": "408af707-4a50-4e36-b245-78e0f59398bf",
                     "x": 9,
                     "y": 12,
@@ -7571,7 +7571,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 16",
+            "name": "Portal Maze",
             "backgroundId": "237baef7-276d-49c8-8aca-96a1e1c4aa53",
             "width": 81,
             "height": 81,
@@ -9515,7 +9515,7 @@
                 0,
                 0,
                 15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -14248,7 +14248,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 17",
+            "name": "Maze Portal Entry Room",
             "backgroundId": "63ab32ca-6024-42c5-8281-b5fe0fc077db",
             "width": 20,
             "height": 18,
@@ -14624,7 +14624,7 @@
             "y": 313,
             "actors": [
                 {
-                    "name": "",
+                    "name": "Portal to maze start",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "7e21eddb-85de-4929-85a0-9a921179d30b",
@@ -14659,7 +14659,7 @@
                     "y": 3
                 },
                 {
-                    "name": "",
+                    "name": "Return to maze portal",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "7e21eddb-85de-4929-85a0-9a921179d30b",
@@ -14694,7 +14694,7 @@
                     "y": 16
                 },
                 {
-                    "name": "",
+                    "name": "Maze Key",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "6a3c2280-7e74-45a1-821e-41ce87eaebf2",
@@ -14777,7 +14777,7 @@
                     "y": 13
                 },
                 {
-                    "name": "",
+                    "name": "Maze Door",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ab3d3b0b-d73e-429c-9444-1401747c1d34",
@@ -14821,7 +14821,7 @@
                     "y": 1
                 },
                 {
-                    "name": "Entity1",
+                    "name": "Entity",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "0465e781-3cf6-425b-9854-1f997061d547",
@@ -14877,7 +14877,7 @@
                     "y": 17
                 },
                 {
-                    "name": "",
+                    "name": "Maze exit door",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ab3d3b0b-d73e-429c-9444-1401747c1d34",
@@ -15415,8 +15415,8 @@
             "autoFadeSpeed": 1,
             "id": "e2ded7c0-226b-4819-80c6-b2f4ff669221",
             "symbol": "scene_18",
-            "x": 1221.1666259765625,
-            "y": 311.3333282470703,
+            "x": 1223.3204721304087,
+            "y": 315.6410205547626,
             "actors": [],
             "triggers": [
                 {
@@ -15993,7 +15993,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "BlockMoveRoom",
+            "name": "Block Move Room",
             "backgroundId": "94cb3b04-8702-464c-890b-676febb1a93c",
             "width": 20,
             "height": 18,
@@ -16750,7 +16750,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Room 18",
+            "name": "Shadow Door Room",
             "backgroundId": "47a4dd7c-7868-4efd-bcd7-064ec6e4247f",
             "width": 20,
             "height": 18,
@@ -19105,7 +19105,7 @@
             "y": 31,
             "actors": [
                 {
-                    "name": "",
+                    "name": "Player Shadow",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "52c5ce19-c4e8-4d40-ab40-5017ceaeda43",
@@ -19316,7 +19316,7 @@
                     "y": 0
                 },
                 {
-                    "name": "",
+                    "name": "Shadow Key",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "6a3c2280-7e74-45a1-821e-41ce87eaebf2",
@@ -19362,6 +19362,48 @@
                     "id": "2338f9b2-8206-43fc-8d2b-738fd365a878",
                     "x": 9,
                     "y": 9
+                },
+                {
+                    "name": "Hint sign",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_35",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "If both buttons\non the floor were\npressed together"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "582adb43-61b8-4077-9147-cba250bdfaa5"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "e81bb068-a9e5-4b0a-bd78-eef0be2651d3"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "2aeed782-5cd7-4596-9319-b5892738bfee",
+                    "x": 1,
+                    "y": 2
                 }
             ],
             "triggers": [
@@ -19389,7 +19431,7 @@
                     "leaveScript": []
                 },
                 {
-                    "name": "",
+                    "name": "Player Shadow Trigger",
                     "id": "d12a385d-8447-455f-ba4e-c23ee5faaa80",
                     "x": 9,
                     "y": 1,
@@ -19403,6 +19445,60 @@
                                 "actorId": "54948b05-d3a8-4feb-a184-5dd5457499de"
                             },
                             "id": "f04a09d4-525f-481e-a7f3-519f69d21252"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Button 1",
+                    "id": "2f1e8e4c-2081-4136-b086-dc401461cc25",
+                    "x": 13,
+                    "y": 1,
+                    "symbol": "trigger_96",
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "$self$",
+                                "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+                            },
+                            "id": "1a6d42d1-c7da-4aeb-8748-4adb80723cb3"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "2aeed782-5cd7-4596-9319-b5892738bfee"
+                            },
+                            "id": "743e28c4-1270-4099-8320-d1064f22fc0f"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "Button 2",
+                    "id": "02d4de0c-ccf5-422b-be95-ea323e656b6c",
+                    "x": 5,
+                    "y": 15,
+                    "symbol": "trigger_97",
+                    "width": 2,
+                    "height": 2,
+                    "script": [
+                        {
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "54948b05-d3a8-4feb-a184-5dd5457499de",
+                                "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+                            },
+                            "id": "4dedbc84-6056-4488-9e9a-4a8935f2f6d9"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_ACTIVATE",
+                            "args": {
+                                "actorId": "2aeed782-5cd7-4596-9319-b5892738bfee"
+                            },
+                            "id": "cc2e913d-1e06-4852-85de-79080bd3fd98"
                         }
                     ],
                     "leaveScript": []
@@ -25199,8 +25295,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 50,
+        "worldScrollY": 38,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
