@@ -1,4 +1,3 @@
-[[_TOC_]]
 
 This is a high-level view of the game design to help guide the development progress by giving a roadmap to the overall structure and style of the game. It is intended to provide a framework for including ideas in a way that provides a consistent and enjoyable experience for players.
 
@@ -33,12 +32,17 @@ The player climbs a seemingly endless spiral staircase, leading to a mysterious 
 
 Level 0, "Enter the Backrooms," is the first level of the game and serves as an introduction to the backrooms concept. The level is designed to be relatively straightforward and easy to navigate, while still providing a sense of danger and unease.
 
-When the player first enters the level, they find themselves in a dark, musty room with no apparent exits. The room is poorly lit, with flickering fluorescent lights and peeling wallpaper. The walls are covered in a pattern of yellowish stains and strange symbols, giving the impression of an abandoned building or a forgotten storage room.
+The player starts in the normal world, arriving at their workplace, A-Sync industries. When they enter the
+building, they discover that things are not normal. Noone is there, hazmat suits are around and soon, they find strange high-energy devices that appear to be powering a black door. Proceeding through the door, they find themselves in the backrooms, where many of the rooms are identical and navigating presents challenges. 
 
 The objective of the level is to find the correct way out of the room and into the maze-like structure of the backrooms. To do so, the player must solve a series of simple puzzles and obstacles, such as:
 
+ * Pushing blocks into specific places to trigger opening a gate
+ * Finding keys in different locations that are needed to open locked doors
+ * Using the player's "shadow" to press buttons
+ * Navigating a large maze to reach a key
 
-As the player progresses through the level, the backrooms gradually become more complex and challenging. The rooms become darker and more claustrophobic, with narrow corridors, low ceilings, and an increasing sense of danger and uncertainty.
+The unusual linking of rooms to each other makes navigation to find the puzzle rooms needed to progress challenging. As the player progresses, the puzzles become slightly more complex. There is also foreshadowing of the entities and other challenges the player will face in later levels.
 
 The ultimate goal of the level is to reach the exit, which is behind a series of puzzles that must be completed for the player to progress through the levels.
 
