@@ -4592,64 +4592,31 @@
                         }
                     ],
                     "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "288a8b23-35cc-4186-b5d8-b04a32d3010d",
-                    "x": 19,
-                    "y": 9,
-                    "symbol": "trigger_69",
-                    "width": 1,
-                    "height": 3,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "1f071c78-1bf1-4ffb-8f32-cc493d9f464f",
-                                "x": 1,
-                                "y": 9,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "8cf47c54-738a-46ea-8d1d-d6df2c1805ac"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "1ee657d8-6489-4421-b60e-3c6725b744db",
-                    "x": 18,
-                    "y": 15,
-                    "symbol": "trigger_110",
-                    "width": 1,
-                    "height": 2,
-                    "script": [
-                        {
-                            "command": "EVENT_SWITCH_SCENE",
-                            "args": {
-                                "sceneId": "25a6a774-0cb7-4589-8c6d-1faf764e9846",
-                                "x": 68,
-                                "y": 7,
-                                "direction": "",
-                                "fadeSpeed": "2"
-                            },
-                            "id": "5c743e0d-d15f-41f4-bf3c-ca6b5d9209ae"
-                        }
-                    ],
-                    "leaveScript": []
                 }
             ],
             "script": [
                 {
-                    "command": "EVENT_TEXT",
+                    "command": "EVENT_IF_FALSE",
                     "args": {
-                        "text": [
-                            "You arrive at Async\nWhat is in store \nfor me today?"
-                        ],
-                        "avatarId": ""
+                        "variable": "5",
+                        "__collapseElse": true
                     },
-                    "id": "18bb332f-b06c-4bd0-88cc-2eb0e699c45e"
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "You arrive at \nAsync. What is in \nstore for today?"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "18bb332f-b06c-4bd0-88cc-2eb0e699c45e"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "7f9b97ec-7875-4018-86ea-68016e56b08a"
                 }
             ],
             "playerHit1Script": [],
@@ -4817,7 +4784,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -5031,7 +4998,42 @@
             "symbol": "scene_2",
             "x": 103.16666412353516,
             "y": 911.8333129882812,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9184760c-358f-4d4f-a874-e551c1cea43c",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "symbol": "actor_40",
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "f22e3f93-2815-449f-a318-7d7863ce198f",
+                                "x": 8,
+                                "y": 17,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "24ee2fa8-bea1-4272-b022-7dad77e846ea"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "bc759145-9b87-4962-93d6-7755b6e1f805",
+                    "x": 12,
+                    "y": 7
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -5082,14 +5084,45 @@
             ],
             "script": [
                 {
-                    "command": "EVENT_TEXT",
+                    "command": "EVENT_IF_FALSE",
                     "args": {
-                        "text": [
-                            "Lockers are new.\nWhy did they add \nhazmat suits?"
-                        ],
-                        "avatarId": ""
+                        "variable": "5",
+                        "__collapseElse": false
                     },
-                    "id": "276b820d-5667-4e67-a6df-ae1e886e4940"
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Lockers are new.\nWhy did they add \nhazmat suits?"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "276b820d-5667-4e67-a6df-ae1e886e4940"
+                            },
+                            {
+                                "command": "EVENT_SET_TRUE",
+                                "args": {
+                                    "variable": "5"
+                                },
+                                "id": "25db4d59-232c-4c57-9108-57eacaf4ea12"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Some lockers have\ncracks. Can I push\ninto them with A?"
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "93f9009c-35ca-4183-ab90-ad936f4a2f19"
+                            }
+                        ]
+                    },
+                    "id": "824ae191-9ac3-4259-bb1b-8410b99101ed"
                 }
             ],
             "playerHit1Script": [],
@@ -27200,6 +27233,47 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Scene 32",
+            "backgroundId": "0072b150-ca37-47dd-af3d-2f6ef8d842bd",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 3,
+            "id": "f22e3f93-2815-449f-a318-7d7863ce198f",
+            "symbol": "scene_32",
+            "x": 316.6666666865349,
+            "y": 1148,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1.5,
+                        "frames": 30
+                    },
+                    "id": "4f206ba1-3246-482f-b9c6-b2d95ccd1865"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "25a6a774-0cb7-4589-8c6d-1faf764e9846",
+                        "x": 6,
+                        "y": 6,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "b980b8eb-c517-4a1b-8ab6-edd011d17237"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -27235,6 +27309,16 @@
             "imageHeight": 144,
             "filename": "backroom_level_one_screen.png",
             "tileColors": []
+        },
+        {
+            "id": "0072b150-ca37-47dd-af3d-2f6ef8d842bd",
+            "name": "backroom_level_three_title",
+            "symbol": "bg_backroom_level_three_tit",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "backroom_level_three_title.png"
         },
         {
             "id": "63ab32ca-6024-42c5-8281-b5fe0fc077db",
@@ -34241,14 +34325,6 @@
             "symbol": "var_has_shadow_key"
         },
         {
-            "id": "4",
-            "name": "Quest1"
-        },
-        {
-            "id": "5",
-            "name": "Quest2"
-        },
-        {
             "id": "6",
             "name": "Quest3"
         },
@@ -34275,6 +34351,16 @@
         {
             "id": "12",
             "name": "PushedIceBlock"
+        },
+        {
+            "id": "4",
+            "name": "Konami Code Status",
+            "symbol": "var_konami_code_status"
+        },
+        {
+            "id": "5",
+            "name": "Seen_initial_hallway_text",
+            "symbol": "var_seen_initial_hallway_te"
         }
     ],
     "engineFieldValues": [
@@ -34292,9 +34378,9 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1868,
-        "worldScrollY": 2367.333251953125,
-        "zoom": 200,
+        "worldScrollX": 0.6666666865348816,
+        "worldScrollY": 923.3333129882812,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
